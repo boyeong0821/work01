@@ -1,0 +1,106 @@
+/* 공통소스 */
+#skipNav{
+    position: absolute;
+    top: 0;
+}
+
+#skipNav a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    white-space: nowrap;
+    color: #fff;
+    background-color: #000;
+    transform: translateY(-110%);
+}
+
+#skipNav a:focus,
+#skipNav a:active{
+    transform: translateY(0);
+}
+
+#wrapper{
+    min-width: 1220px;
+}
+
+.inner{
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+.sc-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 스프라이트 이미지 태그 */
+#footer .group-info .call-area .ic-call,
+.sc-sns .link-sns .more::after,
+.sc-news .link-more::after,
+.sc-event .link-more .ic-more,
+#header .group-bottom .search-form .btn-submit,
+#header .group-top .logo a{
+    background-image: url(../images/sp-main.png);
+    background-repeat: no-repeat;
+}
+
+.sc-visual .content.citizen .title a::before,
+.sc-visual .content.news .title a::before{
+    background-image: url(../images/sp-etc.png);
+    background-repeat: no-repeat;
+}
+
+.sc-banner .banner-slide .control-area .btn.next,
+.sc-banner .banner-slide .control-area .btn.autoplay.on,
+.sc-banner .banner-slide .control-area .btn.autoplay,
+.sc-banner .banner-slide .control-area .btn.prev,
+.sc-visual .visual-slide .control-area .btn.next,
+.sc-visual .visual-slide .control-area .btn.autoplay.on,
+.sc-visual .visual-slide .control-area .btn.autoplay,
+.sc-visual .visual-slide .control-area .btn.prev{
+    background-image: url(../images/sp-btn.png);
+    background-repeat: no-repeat;
+}
+
+.sc-service .service-item .ic-public,
+.sc-service .service-item .ic-answer,
+.sc-service .service-item .ic-job,
+.sc-service .service-item .ic-realestate,
+.sc-service .service-item .ic-portal,
+.sc-service .service-item .ic-welfare,
+.sc-service .service-item .ic-house,
+.sc-service .service-item .ic-young,
+.sc-service .service-item .ic-mediahub,
+.sc-service .service-item .ic-democracy,
+.sc-service .service-item .ic-sll,
+.sc-service .service-item .ic-council{
+    background-image: url(../images/sp-service.png);
+    background-repeat: no-repeat;
+}
+
+.sc-sns .group-sns .sns-item .facebook,
+.sc-sns .group-sns .sns-item .insta,
+.sc-sns .group-sns .sns-item .youtube,
+.sc-sns .group-sns .sns-item .twitter,
+.sc-sns .group-sns .sns-item .blog,
+.sc-sns .group-sns .sns-item .kakaostory,
+.sc-sns .group-sns .sns-item .kakaochannel{
+    background-image: url(../images/sp-sns.png);
+    background-repeat: no-repeat;
+}

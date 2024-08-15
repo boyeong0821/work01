@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Nanum Gothic';
+    src: url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+            url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+            url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 400
+}
+@font-face {
+    font-family: 'Nanum Gothic';
+    src: url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+            url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+            url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 700
+}
+@font-face {
+    font-family: 'Nanum Gothic';
+    src: url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-ExtraBold.woff2') format('woff2'), /* Super Modern Browsers */
+            url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-ExtraBold.woff') format('woff'), /* Pretty Modern Browsers */
+            url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-ExtraBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 800
+}
+
+/* 초기화 */
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+}
+
+*,
+:after,
+:before{
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg{
+    display: block;
+    max-width: 100%;
+}
+
+button{
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+ul{
+    list-style: none;
+}
+
+/* 세팅 */
+body{
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: #222;
+}
